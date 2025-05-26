@@ -1,5 +1,5 @@
-import {getPokemonById} from "../services/pokeapi.js";
-import {addRecentPokemon} from "../storage/recent.js";
+import { getPokemonById } from "../services/pokeapi.js";
+import { addRecentPokemon } from "../storage/recent.js";
 
 export async function pokemonDetailsPage(app, id) {
     app.innerHTML = `<h2>Loading pokemon...</h2>`
